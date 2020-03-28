@@ -1,0 +1,22 @@
+{
+    "extends": "airbnb-base",
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module",
+        "allowImportExportEverywhere": false
+    },
+    "rules": {
+        "indent": [2, 4],
+        "max-len": ["error", { "code": 300, "ignoreComments": true }],
+        "no-underscore-dangle": 0,
+        "class-methods-use-this": ["off"],
+        "newline-per-chained-call": "off",
+        "no-use-before-define": ["error", {
+            "functions": false,
+            "classes": false
+        }],
+        "arrow-parens": ["error", "as-needed", {
+            "requireForBlockBody": false
+        }]
+    }
+}

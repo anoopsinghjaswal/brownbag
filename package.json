@@ -20,7 +20,7 @@
         "dotenv": "^5.0.1",
         "express": "^4.16.2",
         "express-boom": "^2.0.0",
-        "express-fileupload": "^0.4.0",
+        "express-fileupload": "^1.1.9",
         "knex": "^0.14.6",
         "pg": "^7.4.1",
         "pino": "^4.15.0",

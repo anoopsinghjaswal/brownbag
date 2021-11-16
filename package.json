@@ -11,7 +11,7 @@
         "test": "node build.js && _mocha --compilers js:babel-register --exit"
     },
     "dependencies": {
-        "aws-sdk": "^2.224.1",
+        "aws-sdk": "^2.814.0",
         "bluebird": "^3.5.1",
         "body-parser": "^1.18.2",
         "celebrate": "^7.0.4",
